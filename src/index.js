@@ -29,9 +29,6 @@ console.log(prompt)
 //Make a call to the API 
 axios.get(apiURL).then(displayPoem);
 
-
-
-
 }
 let poemFormElement= document.querySelector('#poem-generator');
 poemFormElement.addEventListener("submit", generatePoem);
