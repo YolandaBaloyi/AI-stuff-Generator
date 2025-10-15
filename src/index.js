@@ -25,7 +25,7 @@ poemElement.innerHTML=`<div class="generating">Generating something about ${inst
 
 console.log("Generating something")
 console.log(context);
-console.log(prompt)
+console.log(prompt);
 //Make a call to the API 
 axios.get(apiURL).then(displayPoem);
 
